@@ -1,1 +1,74 @@
-.env
+# Diretórios e arquivos específicos do Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos temporários do Build
+bin/
+obj/
+out/
+
+# Diretórios e arquivos específicos do ASP.NET
+wwwroot/
+
+# Arquivos de configuração do usuário
+*.env
+
+# Arquivos de log
+*.log
+
+# Arquivos de backup
+*.bak
+
+# Arquivos de cache
+*.cache
+*.tmp
+
+# Arquivos gerados automaticamente
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Pacotes NuGet
+*.nupkg
+*.snupkg
+
+# Arquivos de lock
+*.lock
+
+# Diretórios e arquivos de configuração do Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos do Rider
+.idea/
+
+# Arquivos e pastas do NPM
+node_modules/
+
+# Configurações de credenciais de AWS
+.aws/
+
+# Dados de integração contínua
+*.coveragelog
+*.coverage
+*.coveragexml
+*.testresults
+*.trx
+
+# Diretórios de build de aplicativos móveis
+*.apk
+*.aab
+*.ipa
+
+# Arquivos temporários
+*.swp
+*.swo
