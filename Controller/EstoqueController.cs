@@ -48,14 +48,9 @@ namespace APIConcessionaria.Controller
         }
 
         [HttpGet]
-        public IActionResult Visualizar([FromQuery] int page = 1, [FromBody] int pageSize = 10)
+        public IActionResult Visualizar()
         {
-            var carros = _Context.EstoqueDeCarros
-            .Skip((page - 1) * pageSize)
-            .Take(pageSize)
-            .ToList();
-
-            return  Ok(carros);
+            return  Ok(_Context.EstoqueDeCarros.ToList());
         }
 
         [HttpPut]
